@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/*
+	* <- 와일드카드 : 모든 요소
+*/
+*{
+	font-family : Malgun Gothic, dotum, gulim, sans-serif;
+	color: #555;
+	
+}
+html, body {
+	height: 100%;
+}
+html, body, ul, li, table, tr, td{
+	margin: 0;
+	padding: 0;
+	
+}
+li{
+	list-style: none;
+}
+table{
+	border-collapse: 0;
+	border-spacing: 0;
+}
+body{
+	background-color: #efefef;
+}
+header h1{
+	font-size: 40px;
+}
+header h1, footer{
+	text-align: center;
+}
+
+
+
+
+
+header h1{
+    font-size: px;
+}
+#container{
+	min-width: 340px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+#join{
+	width: 300px;
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 2px solid #226EA8;
+	background-color: white;
+}
+
+#join .form-group{
+		font-size: 20px;
+		margin-bottom: 10px;
+}
+
+#join .form-group input[type=text],
+#join .form-group input[type=password] {
+	/* 가로사이즈 가변 */
+	width: calc(100% - 24px);
+	padding: 10px;
+	font-size: 18px;
+	border: 2px solid #D3D4D5;
+}
+
+	
+#join button {
+	width : 100%;
+	font-size: 20px;
+	padding: 10px;
+	background-color: #226EA8;
+	color: #fff;
+	border: 3px solid #0431B4;
+}
+
+footer .find{
+	display: block;
+	margin-bottom: 10px;
+}
